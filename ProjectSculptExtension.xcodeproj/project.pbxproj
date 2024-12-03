@@ -16,6 +16,7 @@
 		F1E21D4B2CFE884A000CE0D3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E21D4A2CFE884A000CE0D3 /* HomeView.swift */; };
 		F1E21D4D2CFE884E000CE0D3 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E21D4C2CFE884D000CE0D3 /* ProgressCircleView.swift */; };
 		F1E21D512CFE897F000CE0D3 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E21D502CFE897F000CE0D3 /* ActivityCard.swift */; };
+		F1E21D542CFEB3F0000CE0D3 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E21D532CFEB3F0000CE0D3 /* WorkoutCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		F1E21D4A2CFE884A000CE0D3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F1E21D4C2CFE884D000CE0D3 /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
 		F1E21D502CFE897F000CE0D3 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		F1E21D532CFEB3F0000CE0D3 /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				F1E21D4A2CFE884A000CE0D3 /* HomeView.swift */,
 				F1E21D4C2CFE884D000CE0D3 /* ProgressCircleView.swift */,
 				F1E21D502CFE897F000CE0D3 /* ActivityCard.swift */,
+				F1E21D532CFEB3F0000CE0D3 /* WorkoutCard.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1E21D312CFD29D9000CE0D3 /* ContentView.swift in Sources */,
+				F1E21D542CFEB3F0000CE0D3 /* WorkoutCard.swift in Sources */,
 				F1E21D432CFD44C9000CE0D3 /* HistoricDataView.swift in Sources */,
 				F1E21D4D2CFE884E000CE0D3 /* ProgressCircleView.swift in Sources */,
 				F1E21D2F2CFD29D9000CE0D3 /* ProjectSculptExtensionApp.swift in Sources */,
