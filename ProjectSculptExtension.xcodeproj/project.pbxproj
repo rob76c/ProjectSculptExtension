@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1A4D5CA2CFFDA9A009227D9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A4D5C92CFFDA9A009227D9 /* HomeViewModel.swift */; };
+		F1A4D5CF2CFFDBDA009227D9 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A4D5CE2CFFDBDA009227D9 /* Activity.swift */; };
+		F1A4D5D12CFFDC44009227D9 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A4D5D02CFFDC44009227D9 /* Workout.swift */; };
 		F1E21D2F2CFD29D9000CE0D3 /* ProjectSculptExtensionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E21D2E2CFD29D9000CE0D3 /* ProjectSculptExtensionApp.swift */; };
 		F1E21D312CFD29D9000CE0D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E21D302CFD29D9000CE0D3 /* ContentView.swift */; };
 		F1E21D332CFD29DF000CE0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E21D322CFD29DF000CE0D3 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1A4D5C92CFFDA9A009227D9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F1A4D5CE2CFFDBDA009227D9 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		F1A4D5D02CFFDC44009227D9 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		F1E21D2B2CFD29D9000CE0D3 /* ProjectSculptExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectSculptExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E21D2E2CFD29D9000CE0D3 /* ProjectSculptExtensionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSculptExtensionApp.swift; sourceTree = "<group>"; };
 		F1E21D302CFD29D9000CE0D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1A4D5CB2CFFDB5D009227D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1E21D532CFEB3F0000CE0D3 /* WorkoutCard.swift */,
+				F1E21D502CFE897F000CE0D3 /* ActivityCard.swift */,
+				F1E21D4C2CFE884D000CE0D3 /* ProgressCircleView.swift */,
+				F1E21D4A2CFE884A000CE0D3 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1A4D5CC2CFFDB66009227D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1A4D5CE2CFFDBDA009227D9 /* Activity.swift */,
+				F1A4D5D02CFFDC44009227D9 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1A4D5CD2CFFDB6D009227D9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F1A4D5C92CFFDA9A009227D9 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		F1E21D222CFD29D9000CE0D3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,10 +119,9 @@
 		F1E21D522CFE8997000CE0D3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				F1E21D4A2CFE884A000CE0D3 /* HomeView.swift */,
-				F1E21D4C2CFE884D000CE0D3 /* ProgressCircleView.swift */,
-				F1E21D502CFE897F000CE0D3 /* ActivityCard.swift */,
-				F1E21D532CFEB3F0000CE0D3 /* WorkoutCard.swift */,
+				F1A4D5CD2CFFDB6D009227D9 /* ViewModels */,
+				F1A4D5CC2CFFDB66009227D9 /* Models */,
+				F1A4D5CB2CFFDB5D009227D9 /* Views */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -163,10 +196,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A4D5CF2CFFDBDA009227D9 /* Activity.swift in Sources */,
 				F1E21D312CFD29D9000CE0D3 /* ContentView.swift in Sources */,
+				F1A4D5CA2CFFDA9A009227D9 /* HomeViewModel.swift in Sources */,
 				F1E21D542CFEB3F0000CE0D3 /* WorkoutCard.swift in Sources */,
 				F1E21D432CFD44C9000CE0D3 /* HistoricDataView.swift in Sources */,
 				F1E21D4D2CFE884E000CE0D3 /* ProgressCircleView.swift in Sources */,
+				F1A4D5D12CFFDC44009227D9 /* Workout.swift in Sources */,
 				F1E21D2F2CFD29D9000CE0D3 /* ProjectSculptExtensionApp.swift in Sources */,
 				F1E21D4B2CFE884A000CE0D3 /* HomeView.swift in Sources */,
 				F1E21D512CFE897F000CE0D3 /* ActivityCard.swift in Sources */,
