@@ -11,7 +11,7 @@ import SwiftUI
 struct ProjectSculptExtensionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PSTabView()
         }
     }
 }
